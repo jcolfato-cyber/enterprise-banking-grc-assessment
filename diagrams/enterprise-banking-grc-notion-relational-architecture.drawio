@@ -1,0 +1,546 @@
+<mxfile host="Electron" agent="ChatGPT" pages="2">
+  <diagram id="architecture" name="01 — Architecture &amp; Relation Inventory">
+    <mxGraphModel dx="2020" dy="1227" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1740" pageHeight="1060" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p_architecture_1" parent="1" style="rounded=1;arcSize=10;strokeColor=#14253D;fillColor=#14253D;" value="" vertex="1">
+          <mxGeometry height="122" width="1680" x="30" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_2" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#FFFFFF;fontSize=36;fontFamily=Arial;spacing=0;fontStyle=1;" value="ENTERPRISE BANKING GRC ASSESSMENT" vertex="1">
+          <mxGeometry height="42" width="1340" x="62" y="47" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_3" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#D6E4F4;fontSize=18;fontFamily=Arial;spacing=0;" value="Notion relational architecture | Evidence-to-risk traceability | Simulated banking.lab environment" vertex="1">
+          <mxGeometry height="28" width="1490" x="62" y="91" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_4" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontColor=#FFFFFF;fontSize=22;fontFamily=Arial;spacing=0;fontStyle=1;" value="07 REGISTERS" vertex="1">
+          <mxGeometry height="30" width="230" x="1433" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_5" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontColor=#D6E4F4;fontSize=20;fontFamily=Arial;spacing=0;fontStyle=1;" value="16 RELATION PAIRS" vertex="1">
+          <mxGeometry height="27" width="243" x="1420" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_6" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=21;fontFamily=Arial;spacing=0;fontStyle=1;" value="EVIDENCE-FIRST ASSESSMENT LIFECYCLE" vertex="1">
+          <mxGeometry height="29" width="1100" x="48" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_7" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#526278;fontSize=16;fontFamily=Arial;spacing=0;" value="Conceptual workflow only; the complete bidirectional database relations are inventoried below." vertex="1">
+          <mxGeometry height="23" width="1570" x="48" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_13" edge="1" parent="1" source="p_architecture_8" style="edgeStyle=none;endArrow=block;endFill=1;strokeColor=#386AA6;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="p_architecture_14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="266" y="300" as="sourcePoint" />
+            <mxPoint x="286.0000000000001" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p_architecture_19" edge="1" parent="1" source="p_architecture_14" style="edgeStyle=none;endArrow=block;endFill=1;strokeColor=#386AA6;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="p_architecture_20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519" y="306" as="sourcePoint" />
+            <mxPoint x="532" y="306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p_architecture_25" edge="1" parent="1" source="p_architecture_20" style="edgeStyle=none;endArrow=block;endFill=1;strokeColor=#386AA6;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="p_architecture_26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="759" y="306" as="sourcePoint" />
+            <mxPoint x="772" y="306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p_architecture_31" edge="1" parent="1" source="p_architecture_26" style="edgeStyle=none;endArrow=block;endFill=1;strokeColor=#386AA6;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="p_architecture_32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="999" y="306" as="sourcePoint" />
+            <mxPoint x="1012" y="306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p_architecture_37" edge="1" parent="1" source="p_architecture_32" style="edgeStyle=none;endArrow=block;endFill=1;strokeColor=#386AA6;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="p_architecture_38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1239" y="306" as="sourcePoint" />
+            <mxPoint x="1252" y="306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p_architecture_43" edge="1" parent="1" source="p_architecture_38" style="edgeStyle=none;endArrow=block;endFill=1;strokeColor=#386AA6;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="p_architecture_44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1479" y="306" as="sourcePoint" />
+            <mxPoint x="1492" y="306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p_architecture_49" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=21;fontFamily=Arial;spacing=0;fontStyle=1;" value="CANONICAL BIDIRECTIONAL RELATIONSHIP INVENTORY" vertex="1">
+          <mxGeometry height="29" width="1520" x="48" y="409" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_50" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#526278;fontSize=16;fontFamily=Arial;spacing=0;" value="RELATIONSHIP KEY: Each row represents one bidirectional Notion relation and its reciprocal properties." vertex="1">
+          <mxGeometry height="25" width="1575" x="48" y="441" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_51" parent="1" style="rounded=1;arcSize=5;fillColor=#14253D;strokeColor=#14253D;" value="" vertex="1">
+          <mxGeometry height="40" width="802" x="48" y="477" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_52" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#FFFFFF;fontSize=15;fontFamily=Arial;spacing=0;fontStyle=1;" value="PAIR" vertex="1">
+          <mxGeometry height="28" width="65" x="60" y="482" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_53" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#FFFFFF;fontSize=15;fontFamily=Arial;spacing=0;fontStyle=1;" value="PROPERTY A   ↔   PROPERTY B" vertex="1">
+          <mxGeometry height="28" width="695" x="130" y="482" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_54" parent="1" style="rounded=1;arcSize=5;fillColor=#14253D;strokeColor=#14253D;" value="" vertex="1">
+          <mxGeometry height="40" width="802" x="893" y="477" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_55" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#FFFFFF;fontSize=15;fontFamily=Arial;spacing=0;fontStyle=1;" value="PAIR" vertex="1">
+          <mxGeometry height="28" width="65" x="905" y="482" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_56" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#FFFFFF;fontSize=15;fontFamily=Arial;spacing=0;fontStyle=1;" value="PROPERTY A   ↔   PROPERTY B" vertex="1">
+          <mxGeometry height="28" width="695" x="975" y="482" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_57" parent="1" style="rounded=1;arcSize=3;fillColor=#F6F8FB;strokeColor=#E3E9F1;strokeWidth=0.7;" value="" vertex="1">
+          <mxGeometry height="49" width="802" x="48" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_58" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="R01" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="532" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_59" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=15;fontFamily=Arial;spacing=0;" value="Asset.Controls  ↔  Control.Assets" vertex="1">
+          <mxGeometry height="32" width="706" x="130" y="532" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_60" parent="1" style="rounded=1;arcSize=3;fillColor=#FFFFFF;strokeColor=#E3E9F1;strokeWidth=0.7;" value="" vertex="1">
+          <mxGeometry height="49" width="802" x="48" y="577" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_61" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="R02" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_62" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=15;fontFamily=Arial;spacing=0;" value="Asset.Evidence  ↔  Evidence.Assets" vertex="1">
+          <mxGeometry height="32" width="706" x="130" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_63" parent="1" style="rounded=1;arcSize=3;fillColor=#F6F8FB;strokeColor=#E3E9F1;strokeWidth=0.7;" value="" vertex="1">
+          <mxGeometry height="49" width="802" x="48" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_64" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="R03" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="638" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_65" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=15;fontFamily=Arial;spacing=0;" value="Asset.Framework Assessments  ↔  Framework Assessment.Assets" vertex="1">
+          <mxGeometry height="32" width="706" x="130" y="638" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_66" parent="1" style="rounded=1;arcSize=3;fillColor=#FFFFFF;strokeColor=#E3E9F1;strokeWidth=0.7;" value="" vertex="1">
+          <mxGeometry height="49" width="802" x="48" y="683" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_67" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="R04" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="691" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_68" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=15;fontFamily=Arial;spacing=0;" value="Asset.Findings  ↔  Finding.Assets" vertex="1">
+          <mxGeometry height="32" width="706" x="130" y="691" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_69" parent="1" style="rounded=1;arcSize=3;fillColor=#F6F8FB;strokeColor=#E3E9F1;strokeWidth=0.7;" value="" vertex="1">
+          <mxGeometry height="49" width="802" x="48" y="736" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_70" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="R05" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="744" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_71" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=15;fontFamily=Arial;spacing=0;" value="Asset.Risks  ↔  Risk.Assets" vertex="1">
+          <mxGeometry height="32" width="706" x="130" y="744" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_72" parent="1" style="rounded=1;arcSize=3;fillColor=#FFFFFF;strokeColor=#E3E9F1;strokeWidth=0.7;" value="" vertex="1">
+          <mxGeometry height="49" width="802" x="48" y="789" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_73" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="R06" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="797" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_74" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=15;fontFamily=Arial;spacing=0;" value="Asset.Depends On  ↔  Asset.Depended On By" vertex="1">
+          <mxGeometry height="32" width="706" x="130" y="797" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_75" parent="1" style="rounded=1;arcSize=3;fillColor=#F6F8FB;strokeColor=#E3E9F1;strokeWidth=0.7;" value="" vertex="1">
+          <mxGeometry height="49" width="802" x="48" y="842" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_76" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="R07" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_77" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=15;fontFamily=Arial;spacing=0;" value="Control.Evidence  ↔  Evidence.Controls" vertex="1">
+          <mxGeometry height="32" width="706" x="130" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_78" parent="1" style="rounded=1;arcSize=3;fillColor=#FFFFFF;strokeColor=#E3E9F1;strokeWidth=0.7;" value="" vertex="1">
+          <mxGeometry height="49" width="802" x="48" y="895" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_79" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="R08" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="903" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_80" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=15;fontFamily=Arial;spacing=0;" value="Control.Framework Assessments  ↔  Framework Assessment.Controls" vertex="1">
+          <mxGeometry height="32" width="706" x="130" y="903" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_81" parent="1" style="rounded=1;arcSize=3;fillColor=#F6F8FB;strokeColor=#E3E9F1;strokeWidth=0.7;" value="" vertex="1">
+          <mxGeometry height="49" width="802" x="893" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_82" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="R09" vertex="1">
+          <mxGeometry height="30" width="60" x="905" y="532" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_83" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=15;fontFamily=Arial;spacing=0;" value="Control.Findings  ↔  Finding.Controls" vertex="1">
+          <mxGeometry height="32" width="706" x="975" y="532" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_84" parent="1" style="rounded=1;arcSize=3;fillColor=#FFFFFF;strokeColor=#E3E9F1;strokeWidth=0.7;" value="" vertex="1">
+          <mxGeometry height="49" width="802" x="893" y="577" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_85" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="R10" vertex="1">
+          <mxGeometry height="30" width="60" x="905" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_86" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=15;fontFamily=Arial;spacing=0;" value="Control.Risks  ↔  Risk.Existing Controls" vertex="1">
+          <mxGeometry height="32" width="706" x="975" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_87" parent="1" style="rounded=1;arcSize=3;fillColor=#F6F8FB;strokeColor=#E3E9F1;strokeWidth=0.7;" value="" vertex="1">
+          <mxGeometry height="49" width="802" x="893" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_88" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="R11" vertex="1">
+          <mxGeometry height="30" width="60" x="905" y="638" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_89" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=15;fontFamily=Arial;spacing=0;" value="Evidence.Framework Assessments  ↔  Framework Assessment.Evidence" vertex="1">
+          <mxGeometry height="32" width="706" x="975" y="638" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_90" parent="1" style="rounded=1;arcSize=3;fillColor=#FFFFFF;strokeColor=#E3E9F1;strokeWidth=0.7;" value="" vertex="1">
+          <mxGeometry height="49" width="802" x="893" y="683" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_91" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="R12" vertex="1">
+          <mxGeometry height="30" width="60" x="905" y="691" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_92" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=15;fontFamily=Arial;spacing=0;" value="Evidence.Findings  ↔  Finding.Evidence" vertex="1">
+          <mxGeometry height="32" width="706" x="975" y="691" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_93" parent="1" style="rounded=1;arcSize=3;fillColor=#F6F8FB;strokeColor=#E3E9F1;strokeWidth=0.7;" value="" vertex="1">
+          <mxGeometry height="49" width="802" x="893" y="736" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_94" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="R13" vertex="1">
+          <mxGeometry height="30" width="60" x="905" y="744" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_95" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=15;fontFamily=Arial;spacing=0;" value="Framework Assessment.Findings  ↔  Finding.Framework Assessments" vertex="1">
+          <mxGeometry height="32" width="706" x="975" y="744" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_96" parent="1" style="rounded=1;arcSize=3;fillColor=#FFFFFF;strokeColor=#E3E9F1;strokeWidth=0.7;" value="" vertex="1">
+          <mxGeometry height="49" width="802" x="893" y="789" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_97" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="R14" vertex="1">
+          <mxGeometry height="30" width="60" x="905" y="797" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_98" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=15;fontFamily=Arial;spacing=0;" value="Finding.Risks  ↔  Risk.Findings" vertex="1">
+          <mxGeometry height="32" width="706" x="975" y="797" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_99" parent="1" style="rounded=1;arcSize=3;fillColor=#F6F8FB;strokeColor=#E3E9F1;strokeWidth=0.7;" value="" vertex="1">
+          <mxGeometry height="49" width="802" x="893" y="842" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_100" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="R15" vertex="1">
+          <mxGeometry height="30" width="60" x="905" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_101" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=15;fontFamily=Arial;spacing=0;" value="Finding.Treatments  ↔  Treatment.Findings" vertex="1">
+          <mxGeometry height="32" width="706" x="975" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_102" parent="1" style="rounded=1;arcSize=3;fillColor=#FFFFFF;strokeColor=#E3E9F1;strokeWidth=0.7;" value="" vertex="1">
+          <mxGeometry height="49" width="802" x="893" y="895" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_103" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="R16" vertex="1">
+          <mxGeometry height="30" width="60" x="905" y="903" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_104" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=15;fontFamily=Arial;spacing=0;" value="Risk.Treatments  ↔  Treatment.Risks" vertex="1">
+          <mxGeometry height="32" width="706" x="975" y="903" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_105" parent="1" style="rounded=1;arcSize=7;fillColor=#EAF1F7;strokeColor=#CFDCEB;" value="" vertex="1">
+          <mxGeometry height="70" width="1322" x="48" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_106" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=16;fontFamily=Arial;spacing=0;" value="BOUNDARY: The Notion schema supports evidence-to-risk traceability. A successful relationship test does not establish framework compliance, control effectiveness, or the accuracy of                        future assessments." vertex="1">
+          <mxGeometry height="70" width="1310" x="60" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="u5aFFt7NPH9x5ys8xkHF-1" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="140" width="208" x="286" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_14" parent="u5aFFt7NPH9x5ys8xkHF-1" style="rounded=1;arcSize=8;strokeColor=#CAD5E4;strokeWidth=1.5;fillColor=#F4F7FB;" value="" vertex="1">
+          <mxGeometry height="140" width="208" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_15" parent="u5aFFt7NPH9x5ys8xkHF-1" style="rounded=0;strokeColor=#386AA6;fillColor=#386AA6;" value="" vertex="1">
+          <mxGeometry height="7" width="208" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_16" parent="u5aFFt7NPH9x5ys8xkHF-1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=19;fontFamily=Arial;spacing=0;fontStyle=1;" value="02  CONTROL" vertex="1">
+          <mxGeometry height="25" width="195" x="13" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_17" parent="u5aFFt7NPH9x5ys8xkHF-1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="Control Register" vertex="1">
+          <mxGeometry height="40" width="195" x="13" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_18" parent="u5aFFt7NPH9x5ys8xkHF-1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#526278;fontSize=15;fontFamily=Arial;spacing=0;" value="Control implementation and effectiveness" vertex="1">
+          <mxGeometry height="40" width="195" x="13" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="u5aFFt7NPH9x5ys8xkHF-2" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="140" width="208" x="46" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_8" parent="u5aFFt7NPH9x5ys8xkHF-2" style="rounded=1;arcSize=8;strokeColor=#CAD5E4;strokeWidth=1.5;fillColor=#F4F7FB;" value="" vertex="1">
+          <mxGeometry height="140" width="208" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_9" parent="u5aFFt7NPH9x5ys8xkHF-2" style="rounded=0;strokeColor=#386AA6;fillColor=#386AA6;" value="" vertex="1">
+          <mxGeometry height="7" width="208" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_10" parent="u5aFFt7NPH9x5ys8xkHF-2" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=19;fontFamily=Arial;spacing=0;fontStyle=1;" value="01  ASSET" vertex="1">
+          <mxGeometry height="25" width="195" x="13" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_11" parent="u5aFFt7NPH9x5ys8xkHF-2" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="Asset Register" vertex="1">
+          <mxGeometry height="40" width="195" x="13" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_12" parent="u5aFFt7NPH9x5ys8xkHF-2" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#526278;fontSize=15;fontFamily=Arial;spacing=0;" value="Scope, CIA and dependencies" vertex="1">
+          <mxGeometry height="40" width="195" x="13" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="u5aFFt7NPH9x5ys8xkHF-3" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="140" width="208" x="526" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_20" parent="u5aFFt7NPH9x5ys8xkHF-3" style="rounded=1;arcSize=8;strokeColor=#CAD5E4;strokeWidth=1.5;fillColor=#F4F7FB;" value="" vertex="1">
+          <mxGeometry height="140" width="208" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_21" parent="u5aFFt7NPH9x5ys8xkHF-3" style="rounded=0;strokeColor=#386AA6;fillColor=#386AA6;" value="" vertex="1">
+          <mxGeometry height="7" width="208" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_22" parent="u5aFFt7NPH9x5ys8xkHF-3" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=19;fontFamily=Arial;spacing=0;fontStyle=1;" value="03  EVIDENCE" vertex="1">
+          <mxGeometry height="25" width="195" x="13" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_23" parent="u5aFFt7NPH9x5ys8xkHF-3" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="Evidence Register" vertex="1">
+          <mxGeometry height="40" width="195" x="13" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_24" parent="u5aFFt7NPH9x5ys8xkHF-3" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#526278;fontSize=15;fontFamily=Arial;spacing=0;" value="Source provenance and limitations" vertex="1">
+          <mxGeometry height="40" width="195" x="13" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="u5aFFt7NPH9x5ys8xkHF-4" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="140" width="208" x="766" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_26" parent="u5aFFt7NPH9x5ys8xkHF-4" style="rounded=1;arcSize=8;strokeColor=#CAD5E4;strokeWidth=1.5;fillColor=#F4F7FB;" value="" vertex="1">
+          <mxGeometry height="140" width="208" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_27" parent="u5aFFt7NPH9x5ys8xkHF-4" style="rounded=0;strokeColor=#386AA6;fillColor=#386AA6;" value="" vertex="1">
+          <mxGeometry height="7" width="208" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_28" parent="u5aFFt7NPH9x5ys8xkHF-4" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=19;fontFamily=Arial;spacing=0;fontStyle=1;" value="04  ASSESSMENT" vertex="1">
+          <mxGeometry height="25" width="195" x="13" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_29" parent="u5aFFt7NPH9x5ys8xkHF-4" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="Framework Assessment Register" vertex="1">
+          <mxGeometry height="40" width="195" x="10" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_30" parent="u5aFFt7NPH9x5ys8xkHF-4" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#526278;fontSize=15;fontFamily=Arial;spacing=0;" value="APRA CPS 234 | ASD Essentials | ISO 27001" vertex="1">
+          <mxGeometry height="40" width="195" x="13" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="u5aFFt7NPH9x5ys8xkHF-5" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="140" width="208" x="1006" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_32" parent="u5aFFt7NPH9x5ys8xkHF-5" style="rounded=1;arcSize=8;strokeColor=#CAD5E4;strokeWidth=1.5;fillColor=#F4F7FB;" value="" vertex="1">
+          <mxGeometry height="140" width="208" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_33" parent="u5aFFt7NPH9x5ys8xkHF-5" style="rounded=0;strokeColor=#386AA6;fillColor=#386AA6;" value="" vertex="1">
+          <mxGeometry height="7" width="208" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_34" parent="u5aFFt7NPH9x5ys8xkHF-5" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=19;fontFamily=Arial;spacing=0;fontStyle=1;" value="05  FINDING" vertex="1">
+          <mxGeometry height="25" width="195" x="13" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_35" parent="u5aFFt7NPH9x5ys8xkHF-5" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="Finding Register" vertex="1">
+          <mxGeometry height="40" width="195" x="13" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_36" parent="u5aFFt7NPH9x5ys8xkHF-5" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#526278;fontSize=15;fontFamily=Arial;spacing=0;" value="Observed gaps and deficiencies" vertex="1">
+          <mxGeometry height="40" width="195" x="13" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="u5aFFt7NPH9x5ys8xkHF-6" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="140" width="208" x="1246" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_38" parent="u5aFFt7NPH9x5ys8xkHF-6" style="rounded=1;arcSize=8;strokeColor=#CAD5E4;strokeWidth=1.5;fillColor=#F4F7FB;" value="" vertex="1">
+          <mxGeometry height="140" width="208" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_39" parent="u5aFFt7NPH9x5ys8xkHF-6" style="rounded=0;strokeColor=#386AA6;fillColor=#386AA6;" value="" vertex="1">
+          <mxGeometry height="7" width="208" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_40" parent="u5aFFt7NPH9x5ys8xkHF-6" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=19;fontFamily=Arial;spacing=0;fontStyle=1;" value="06  RISK" vertex="1">
+          <mxGeometry height="25" width="195" x="13" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_41" parent="u5aFFt7NPH9x5ys8xkHF-6" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="Risk Register" vertex="1">
+          <mxGeometry height="40" width="195" x="13" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_42" parent="u5aFFt7NPH9x5ys8xkHF-6" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#526278;fontSize=15;fontFamily=Arial;spacing=0;" value="Inherent and residual exposure" vertex="1">
+          <mxGeometry height="40" width="195" x="13" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="u5aFFt7NPH9x5ys8xkHF-7" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="140" width="208" x="1486" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_44" parent="u5aFFt7NPH9x5ys8xkHF-7" style="rounded=1;arcSize=8;strokeColor=#CAD5E4;strokeWidth=1.5;fillColor=#F4F7FB;" value="" vertex="1">
+          <mxGeometry height="140" width="208" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_45" parent="u5aFFt7NPH9x5ys8xkHF-7" style="rounded=0;strokeColor=#386AA6;fillColor=#386AA6;" value="" vertex="1">
+          <mxGeometry height="7" width="208" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_46" parent="u5aFFt7NPH9x5ys8xkHF-7" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=19;fontFamily=Arial;spacing=0;fontStyle=1;" value="07  TREATMENT" vertex="1">
+          <mxGeometry height="25" width="195" x="13" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_47" parent="u5aFFt7NPH9x5ys8xkHF-7" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="Treatment Register" vertex="1">
+          <mxGeometry height="40" width="195" x="13" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p_architecture_48" parent="u5aFFt7NPH9x5ys8xkHF-7" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#526278;fontSize=15;fontFamily=Arial;spacing=0;" value="Proposed actions and validation" vertex="1">
+          <mxGeometry height="40" width="195" x="13" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="6BjTYXH_YWFHcuSVAN_j-1" parent="1" style="rounded=1;arcSize=7;fillColor=#EAF1F7;strokeColor=#CFDCEB;" value="" vertex="1">
+          <mxGeometry height="70" width="285" x="1410" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="mVuJRB_qbguBnK42TwMe-1" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=16;fontFamily=Arial;spacing=0;" value="Architecture by Jon Carlo Yuzon Olfato&#xa;2026" vertex="1">
+          <mxGeometry height="57" width="279" x="1413" y="973" as="geometry" />
+        </mxCell>
+        <mxCell id="mVuJRB_qbguBnK42TwMe-2" parent="1" style="rounded=0;strokeColor=#386AA6;fillColor=light-dark(#13253d, #729dd1);fontColor=#FFFFFF;" value="enterprise-bangking-grc-assessment" vertex="1">
+          <mxGeometry height="13" width="285" x="1410" y="960" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="operating-rules" name="02 — Register Semantics &amp; Control Boundaries">
+    <mxGraphModel dx="3142" dy="1909" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1740" pageHeight="1060" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p_operating-rules_1" parent="1" style="rounded=1;arcSize=10;strokeColor=#14253D;fillColor=#14253D;" value="" vertex="1">
+          <mxGeometry height="122" width="1680" x="30" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_2" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#FFFFFF;fontSize=36;fontFamily=Arial;spacing=0;fontStyle=1;" value="REGISTER SEMANTICS &amp; ASSESSMENT BOUNDARIES" vertex="1">
+          <mxGeometry height="37" width="1570" x="62" y="47" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_3" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#D6E4F4;fontSize=18;fontFamily=Arial;spacing=0;" value="Operational definitions for the relational schema | Use alongside the relationship inventory" vertex="1">
+          <mxGeometry height="25" width="1490" x="62" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_4" parent="1" style="rounded=1;arcSize=7;fillColor=#F4F7FB;strokeColor=#CAD5E4;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="190" width="797" x="48" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_5" parent="1" style="rounded=0;fillColor=#386AA6;strokeColor=#386AA6;" value="" vertex="1">
+          <mxGeometry height="190" width="7" x="48" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_6" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=19;fontFamily=Arial;spacing=0;fontStyle=1;" value="01   ASSET REGISTER" vertex="1">
+          <mxGeometry height="31" width="749" x="70" y="183" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_7" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#526278;fontSize=17;fontFamily=Arial;spacing=0;" value="Inventory the real, in-scope lab assets and supported dependencies. Assess confidentiality, integrity, availability and criticality with documented rationale." vertex="1">
+          <mxGeometry height="74" width="752" x="70" y="222" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_8" parent="1" style="strokeColor=#DDE5EE;fillColor=#DDE5EE;" value="" vertex="1">
+          <mxGeometry height="1" width="755" x="69" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_9" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#365A58;fontSize=15;fontFamily=Arial;spacing=0;" value="BOUNDARY: Asset dependency: Depends On ↔ Depended On By. Avoid inventing production banking systems." vertex="1">
+          <mxGeometry height="51" width="751" x="70" y="309" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_10" parent="1" style="rounded=1;arcSize=7;fillColor=#F4F7FB;strokeColor=#CAD5E4;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="190" width="797" x="893" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_11" parent="1" style="rounded=0;fillColor=#386AA6;strokeColor=#386AA6;" value="" vertex="1">
+          <mxGeometry height="190" width="7" x="893" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_12" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=19;fontFamily=Arial;spacing=0;fontStyle=1;" value="02   CONTROL REGISTER" vertex="1">
+          <mxGeometry height="31" width="749" x="915" y="183" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_13" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#526278;fontSize=17;fontFamily=Arial;spacing=0;" value="Record actual control mechanisms separately from security objectives. Distinguish implementation status from independently supported operating effectiveness." vertex="1">
+          <mxGeometry height="74" width="755" x="915" y="222" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_14" parent="1" style="strokeColor=#DDE5EE;fillColor=#DDE5EE;" value="" vertex="1">
+          <mxGeometry height="1" width="755" x="914" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_15" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#365A58;fontSize=15;fontFamily=Arial;spacing=0;" value="BOUNDARY: Proposed remediation is not an implemented existing control." vertex="1">
+          <mxGeometry height="51" width="751" x="915" y="309" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_16" parent="1" style="rounded=1;arcSize=7;fillColor=#F4F7FB;strokeColor=#CAD5E4;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="190" width="797" x="48" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_17" parent="1" style="rounded=0;fillColor=#386AA6;strokeColor=#386AA6;" value="" vertex="1">
+          <mxGeometry height="190" width="7" x="48" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_18" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=19;fontFamily=Arial;spacing=0;fontStyle=1;" value="03   EVIDENCE REGISTER" vertex="1">
+          <mxGeometry height="31" width="749" x="70" y="393" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_19" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#526278;fontSize=17;fontFamily=Arial;spacing=0;" value="Reference exact source repository, path, revision, capture date, demonstrated outcome and evidentiary limitations." vertex="1">
+          <mxGeometry height="74" width="752" x="70" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_20" parent="1" style="strokeColor=#DDE5EE;fillColor=#DDE5EE;" value="" vertex="1">
+          <mxGeometry height="1" width="755" x="69" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_21" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#365A58;fontSize=15;fontFamily=Arial;spacing=0;" value="BOUNDARY: No inference beyond what original Project 1 and Project 2 evidence demonstrates." vertex="1">
+          <mxGeometry height="51" width="751" x="70" y="519" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_22" parent="1" style="rounded=1;arcSize=7;fillColor=#F4F7FB;strokeColor=#CAD5E4;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="190" width="797" x="893" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_23" parent="1" style="rounded=0;fillColor=#386AA6;strokeColor=#386AA6;" value="" vertex="1">
+          <mxGeometry height="190" width="7" x="893" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_24" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=19;fontFamily=Arial;spacing=0;fontStyle=1;" value="04   FRAMEWORK ASSESSMENT REGISTER" vertex="1">
+          <mxGeometry height="31" width="749" x="915" y="393" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_25" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#526278;fontSize=17;fontFamily=Arial;spacing=0;" value="Single authoritative database, three filtered lenses: APRA CPS 234; ASD Essentials for enterprise IT; ISO/IEC 27001:2022 supporting alignment." vertex="1">
+          <mxGeometry height="74" width="755" x="915" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_26" parent="1" style="strokeColor=#DDE5EE;fillColor=#DDE5EE;" value="" vertex="1">
+          <mxGeometry height="1" width="755" x="914" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_27" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#365A58;fontSize=15;fontFamily=Arial;spacing=0;" value="BOUNDARY: ASD action ratings and applicability are separate. ISO alignment is not certification." vertex="1">
+          <mxGeometry height="51" width="751" x="915" y="519" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_28" parent="1" style="rounded=1;arcSize=7;fillColor=#F4F7FB;strokeColor=#CAD5E4;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="190" width="797" x="48" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_29" parent="1" style="rounded=0;fillColor=#386AA6;strokeColor=#386AA6;" value="" vertex="1">
+          <mxGeometry height="190" width="7" x="48" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_30" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=19;fontFamily=Arial;spacing=0;fontStyle=1;" value="05   FINDING REGISTER" vertex="1">
+          <mxGeometry height="31" width="749" x="70" y="603" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_31" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#526278;fontSize=17;fontFamily=Arial;spacing=0;" value="Document the factual observation, expected outcome, affected assets, source evidence, and linked framework assessments." vertex="1">
+          <mxGeometry height="74" width="752" x="70" y="642" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_32" parent="1" style="strokeColor=#DDE5EE;fillColor=#DDE5EE;" value="" vertex="1">
+          <mxGeometry height="1" width="755" x="69" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_33" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#365A58;fontSize=15;fontFamily=Arial;spacing=0;" value="BOUNDARY: One observed issue can support several framework mappings; do not duplicate a finding for every reference." vertex="1">
+          <mxGeometry height="51" width="751" x="70" y="729" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_34" parent="1" style="rounded=1;arcSize=7;fillColor=#F4F7FB;strokeColor=#CAD5E4;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="190" width="797" x="893" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_35" parent="1" style="rounded=0;fillColor=#386AA6;strokeColor=#386AA6;" value="" vertex="1">
+          <mxGeometry height="190" width="7" x="893" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_36" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=19;fontFamily=Arial;spacing=0;fontStyle=1;" value="06   RISK REGISTER" vertex="1">
+          <mxGeometry height="31" width="749" x="915" y="603" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_37" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#526278;fontSize=17;fontFamily=Arial;spacing=0;" value="Write a credible threat–condition–consequence scenario. Calculate inherent and residual risk on the project-defined 5×5 matrix." vertex="1">
+          <mxGeometry height="74" width="752" x="915" y="642" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_38" parent="1" style="strokeColor=#DDE5EE;fillColor=#DDE5EE;" value="" vertex="1">
+          <mxGeometry height="1" width="755" x="914" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_39" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#365A58;fontSize=15;fontFamily=Arial;spacing=0;" value="BOUNDARY: A risk may arise from multiple findings. Residual risk reflects existing controls; proposed treatments  are not assumed effective." vertex="1">
+          <mxGeometry height="51" width="751" x="915" y="729" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_40" parent="1" style="rounded=1;arcSize=7;fillColor=#F4F7FB;strokeColor=#CAD5E4;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="190" width="797" x="48" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_41" parent="1" style="rounded=0;fillColor=#386AA6;strokeColor=#386AA6;" value="" vertex="1">
+          <mxGeometry height="190" width="7" x="48" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_42" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=19;fontFamily=Arial;spacing=0;fontStyle=1;" value="07   TREATMENT REGISTER" vertex="1">
+          <mxGeometry height="31" width="749" x="70" y="813" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_43" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#526278;fontSize=17;fontFamily=Arial;spacing=0;" value="Link proposed mitigation, avoidance, transfer or acceptance to findings and risks; document expected outcomes, priority and verification criteria." vertex="1">
+          <mxGeometry height="74" width="752" x="70" y="852" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_44" parent="1" style="strokeColor=#DDE5EE;fillColor=#DDE5EE;" value="" vertex="1">
+          <mxGeometry height="1" width="755" x="69" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_45" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#365A58;fontSize=15;fontFamily=Arial;spacing=0;" value="BOUNDARY: An unapproved proposal does not indicate real-world risk acceptance or completed remediation." vertex="1">
+          <mxGeometry height="51" width="751" x="70" y="939" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_46" parent="1" style="rounded=1;arcSize=8;fillColor=#EAF1F7;strokeColor=#CFDCEB;" value="" vertex="1">
+          <mxGeometry height="190" width="796" x="895" y="802" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_47" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=19;fontFamily=Arial;spacing=0;fontStyle=1;" value="FRAMEWORK HIERARCHY" vertex="1">
+          <mxGeometry height="32" width="727" x="917" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_48" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#386AA6;fontSize=17;fontFamily=Arial;spacing=0;fontStyle=1;" value="PRIMARY REGULATORY LENS  —  APRA CPS 234" vertex="1">
+          <mxGeometry height="27" width="727" x="917" y="861" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_49" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=17;fontFamily=Arial;spacing=0;" value="TECHNICAL OUTCOME ASSURANCE  —  ASD Essentials for enterprise IT &#xa;                                                                    (15 Oct 2026; OSCAL v2026.10.15)" vertex="1">
+          <mxGeometry height="37" width="727" x="917" y="895" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_50" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=17;fontFamily=Arial;spacing=0;" value="SUPPORTING CONTROL ALIGNMENT  —  ISO/IEC 27001:2022 (+ Amd 1:2024, as relevant)" vertex="1">
+          <mxGeometry height="36" width="727" x="917" y="937" as="geometry" />
+        </mxCell>
+        <mxCell id="p_operating-rules_51" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#526278;fontSize=16;fontFamily=Arial;spacing=0;" value="ARCHITECTURE REFERENCE: This diagram defines register relationships and assessment boundaries; operational records and assessment results are maintained separately in Notion." vertex="1">
+          <mxGeometry height="51" width="797" x="48" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="LHmAAJTbJW5BkfMqiIis-1" parent="1" style="rounded=1;arcSize=7;fillColor=#EAF1F7;strokeColor=#CFDCEB;" value="" vertex="1">
+          <mxGeometry height="51" width="285" x="1405" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="LHmAAJTbJW5BkfMqiIis-2" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#14253D;fontSize=16;fontFamily=Arial;spacing=0;" value="Architecture by Jon Carlo Yuzon Olfato" vertex="1">
+          <mxGeometry height="37" width="279" x="1408" y="1013" as="geometry" />
+        </mxCell>
+        <mxCell id="LHmAAJTbJW5BkfMqiIis-3" parent="1" style="rounded=0;strokeColor=#386AA6;fillColor=light-dark(#13253d, #729dd1);fontColor=#FFFFFF;" value="enterprise-bangking-grc-assessment" vertex="1">
+          <mxGeometry height="13" width="285" x="1405" y="1000" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

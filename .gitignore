@@ -1,0 +1,36 @@
+# ============================================
+# Enterprise Banking GRC Assessment
+# Git Ignore Configuration
+# ============================================
+
+# macOS and Windows system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# VS Code local workspace settings
+.vscode/
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Temporary office files
+~$*
+*.tmp
+*.bak
+*.swp
