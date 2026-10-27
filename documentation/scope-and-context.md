@@ -290,15 +290,15 @@ Evidence collected after the assessment baseline date cannot automatically estab
 
 Any such conclusion requires appropriate supporting evidence and explicit qualification.
 
-## 12. Assessment Baseline and Cut-off
+## 12. Assessment Baseline and Reference Date
 
-**Proposed assessment baseline date:** 19 October 2026
+**Technical assessment reference date:** 19 October 2026.
 
-This date represents the intended technical assessment cut-off for the existing Projects 1 and 2 environment.
+The reference date corresponds to the commencement of Project 3 and establishes the intended historical assessment point for the existing Projects 1 and 2 environment.
 
-The technical assessment cut-off must be confirmed and documented before operational assessment records are populated.
+The reference date does not independently establish the configuration state of every system on that date.
 
-Framework publication dates and evidence acquisition dates are recorded separately.
+Framework publication dates, evidence acquisition dates, and GitHub commit dates are recorded separately.
 
 The assessment distinguishes:
 
@@ -306,6 +306,10 @@ The assessment distinguishes:
 - Baseline technical configuration
 - Subsequent read-only observations
 - Future remediation or treatment implementation
+
+Historical evidence must retain its original capture context.
+
+Later observations cannot automatically establish an earlier configuration state without corroborating evidence.
 
 Later remediation must not silently replace the original assessment findings or residual-risk conclusions.
 

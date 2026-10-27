@@ -54,11 +54,15 @@ Risk-driven selection of additional controls occurs during risk treatment, after
 
 The technical assessment covers the implemented `banking.lab` environment established through Projects 1 and 2.
 
-**Proposed assessment cut-off:** 19 October 2026.
+**Technical assessment reference date:** 19 October 2026.
 
-The technical assessment cut-off must be confirmed through baseline reconciliation before operational assessment records are populated.
+This date corresponds to the commencement of Project 3 and provides the reference point for evaluating the existing technical environment.
 
-Existing historical evidence retains its original capture date and implementation context.
+The selected reference date does not independently establish that all configurations remained unchanged on that date.
+
+Historical evidence retains its original capture or validation date and implementation context.
+
+Subsequent technical observations must retain their actual acquisition dates and must not be treated as evidence of the historical baseline without appropriate corroboration.
 
 ### 4.2 Framework Baseline
 

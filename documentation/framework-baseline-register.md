@@ -31,7 +31,7 @@ Framework alignment does not constitute regulatory compliance certification, an 
 ### Baseline Provenance
 
 - Project design baseline adoption: 19 October 2026
-- Technical assessment cut-off: Proposed 19 October 2026; subject to confirmation
+- Technical assessment reference date: 19 October 2026; Adopted
 - Official framework reference check: 24 October 2026
 - ASD Essentials enterprise IT initial release: 15 October 2026
 - Adopted ASD OSCAL identifier: E4EIT v2026.10.15

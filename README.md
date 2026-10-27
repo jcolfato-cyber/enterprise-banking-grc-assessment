@@ -76,7 +76,7 @@ Existing configurations will not be modified solely to improve assessment outcom
 
 | Stage | Description | Status |
 | --- | --- | --- |
-| 1 | Foundation | In Progress |
+| 1 | Foundation | Completed |
 | 2 | Asset, Control and Evidence Baseline | Planned |
 | 3 | Framework Assessment | Planned |
 | 4 | Findings and Risk Assessment | Planned |
