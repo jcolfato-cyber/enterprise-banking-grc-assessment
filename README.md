@@ -23,7 +23,7 @@ The assessment focuses on identifying security strengths, control deficiencies, 
 - **Publisher:** Australian Signals Directorate
 - **Framework:** ASD Essentials for enterprise IT
 - **Initial release date:** 15 October 2026
-- **OSCAL release:** v2026.10.15
+- **OSCAL release:** E4EIT v2026.10.15
 - **Assessment methodology:** ASD Essentials Assessment Process Guide
 
 Framework references and updates are governed through the Project 3 Framework Baseline Register.
@@ -76,12 +76,18 @@ Existing configurations will not be modified solely to improve assessment outcom
 
 | Stage | Description | Status |
 | --- | --- | --- |
-| 1 | Foundation | Completed |
-| 2 | Asset, Control and Evidence Baseline | Planned |
+| 1 | Foundation | Completed and Closed |
+| 2 | Asset, Control and Evidence Baseline | Pending Readiness Approval |
 | 3 | Framework Assessment | Planned |
 | 4 | Findings and Risk Assessment | Planned |
 | 5 | Treatment and Executive Reporting | Planned |
 | 6 | Assurance and Closure | Planned |
+
+The assessment foundation and seven-register Notion GRC workspace have been established and validated.
+
+The project is completing its final readiness checks before commencing the evidence-based assessment of the existing infrastructure and IAM implementations from Projects 1 and 2.
+
+Operational assessment records have not yet been populated.
 
 ## Repository Documentation
 
@@ -100,16 +106,27 @@ Existing configurations will not be modified solely to improve assessment outcom
 
 ### Notion Foundation Verification
 
-The initial Notion architecture contains seven relational registers and 16 bidirectional relationship pairs.
+The Notion GRC architecture contains seven relational registers and sixteen bidirectional relationship pairs.
 
-Relational integrity testing was completed on 22 October 2026:
+Foundation validation recorded:
 
-- Test identifier: S1-05B
-- Result: 16/16 PASS
-- Temporary QA records: Removed
-- Assessment records: Not yet populated
+- Relational integrity: 16/16 PASS — 22 October 2026.
+- Post-cleanup verification: 7/7 operational registers empty — 23 October 2026.
+- Framework Assessment Register: Four configured assessment views.
+- Foundation closure: Git commit `62a5f83`.
 
-The relational verification result applies to database architecture, not framework compliance, assessment accuracy, or operational control effectiveness.
+Subsequent pre-Stage 2 assurance included:
+
+- Risk Register formula revalidation: 7/7 test cases PASS.
+- Inherent and residual risk formula outputs: 28/28 PASS.
+- Successful data propagation from the Risk Register to the Executive Dashboard's `All Risks — Distribution` view.
+- Assessor-confirmed isolation of the reusable GRC Master Template and removal of temporary test records.
+
+These results establish verified database functionality within the documented test scope.
+
+They do not establish completed operational risk assessments, security control effectiveness, framework compliance or independent external assurance.
+
+Operational assessment records remain unpopulated pending Stage 2 authorisation.
 
 ### Publication Model
 

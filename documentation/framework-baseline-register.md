@@ -36,9 +36,9 @@ Framework alignment does not constitute regulatory compliance certification, an 
 - ASD Essentials enterprise IT initial release: 15 October 2026
 - Adopted ASD OSCAL identifier: E4EIT v2026.10.15
 
-The project design baseline, framework publication dates, technical assessment cut-off, and evidence acquisition dates are separate records.
+The project design baseline, framework publication dates, technical assessment reference date, and evidence acquisition dates are separate records.
 
-A framework reference check does not establish that a technical configuration was unchanged on the assessment cut-off date.
+A framework reference check does not establish that a technical configuration was unchanged on the technical assessment reference date.
 
 ## 3. Framework Hierarchy
 

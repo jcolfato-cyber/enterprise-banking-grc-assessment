@@ -710,11 +710,15 @@ Additional domain, assessment-status, or evidence-sufficiency views may be confi
 
 ### 15.4 Executive Reporting
 
-The Executive Dashboard will use actual assessment records to present scope, framework results, findings, risk exposure, and treatment priorities.
+The original Project 3 Executive Dashboard has been structurally configured and internally reviewed.
 
-Reporting metrics must not be populated from fabricated assessment results.
+It contains linked reporting views referencing the authoritative Framework Assessment, Finding, Risk, and Treatment Registers.
 
-Dashboard calculations and source-record reconciliation remain subject to later-stage validation.
+The dashboard currently provides assessment governance, reporting definitions, and controlled access to the operational reporting sources. Operational framework assessments, findings, risks, and treatments have not yet been populated.
+
+The Risk Register's unfiltered dashboard view has undergone supplementary data-propagation testing. Other end-to-end reporting checks remain subject to their applicable future quality gates.
+
+Executive indicators, distributions, rankings, and visualisations must be derived from validated assessment records. No assessment metric may be populated from fabricated or unassessed data.
 
 ## 16. GitHub Publication Model
 

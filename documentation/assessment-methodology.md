@@ -255,7 +255,7 @@ Existing Projects 1 and 2 evidence is reviewed first.
 
 Additional technical evidence is requested only where necessary to support a defensible assessment conclusion.
 
-Evidence acquired after the assessment cut-off must retain its actual acquisition date.
+Evidence acquired after the technical assessment reference date must retain its actual acquisition date and must not be treated as evidence of the historical configuration state without appropriate corroboration.
 
 ### 7.5 Technical Evidence Requests
 
